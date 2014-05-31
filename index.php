@@ -38,8 +38,7 @@
 }
   img{
     width: 520px ;
-    margin: 0 auto;
-
+    text-align: center;
   }
 </style>
 </body>
