@@ -30,6 +30,12 @@ echo "Proximante";
 ?>	
 
 <img src="img/proximamente.jpg" alt="">
+
+<style>
+  img{
+    width: 520px ;
+  }
+</style>
 </body>
 </html>
 
