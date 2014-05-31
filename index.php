@@ -29,7 +29,7 @@ echo "Proximante";
 
 ?>	
 
-<p> Este es un parrafo maton </p>
+<img src="img/proximamente.jpg" alt="">
 </body>
 </html>
 
