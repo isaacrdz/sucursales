@@ -28,6 +28,8 @@
 echo "Proximante";
 
 ?>	
+
+<p> Este es un parrafo maton </p>
 </body>
 </html>
 
