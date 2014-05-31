@@ -34,6 +34,7 @@ echo "Proximante";
 <style>
   img{
     width: 520px ;
+    margin: 0 auto;
   }
 </style>
 </body>
