@@ -3,21 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-<script>
-
-  <script>
+ <script>
       window.fbAsyncInit = function() {
         FB.init({
-          appId      : '{694699497243451}',
+          appId      : '{your-app-id}',
           xfbml      : true,
           version    : 'v2.0'
         });
-
-        FB.ui({
-  method: 'pagetab',
-  redirect_uri: 'http://zack-php.herokuapp.com/'
-}, function(response){});
-
       };
 
       (function(d, s, id){
@@ -28,20 +20,6 @@
          fjs.parentNode.insertBefore(js, fjs);
        }(document, 'script', 'facebook-jssdk'));
     </script>
-
-
-
-
-
-
-
-
-
-
-
-	
-
-</script>
 
 </head>
 <body>
