@@ -23,18 +23,23 @@
 
 </head>
 <body>
-	<?php
 
-echo "Proximante";
+<section class="border" >
 
-?>	
-
-<img src="img/proximamente.jpg" alt="">
+  <img src="img/proximamente.jpg" alt="">
+  
+</section>
 
 <style>
+
+.border{
+  border:1px solid red;
+  width: 800px;
+}
   img{
     width: 520px ;
     margin: 0 auto;
+
   }
 </style>
 </body>
