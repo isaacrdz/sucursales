@@ -25,7 +25,7 @@
 <body>
 	<?php
 
-echo "Hello dog!";
+echo "Proximante";
 
 ?>	
 </body>
