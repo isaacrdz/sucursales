@@ -24,12 +24,6 @@
 </head>
 <body>
 
-<section class="border" >
-
-  <img src="img/proximamente.jpg" alt="">
-  
-</section>
-
 
 <section id="form-box">
        <form action="emaixl.php" method="post">
@@ -61,44 +55,17 @@
               <option value="Volante">Volante</option>
               <option value="Cliente">Cliente Anterior</option>
             </select>
-            <br>
-            <?
-   require_once('recaptchalib.php');
-   $publickey = "6Lcg0ugSAAAAAHvKUqMZbXeIeMxVZr3SrjRdPaKR"; // you got this from the signup page
-   echo recaptcha_get_html($publickey);
-?>
-            <br>
+           
             <label> Comentario: </label>
             <br />
             <textarea placeholder="Obligatorio" cols="28" rows="10" name="mensaje"></textarea>
             <br />
             <input type="submit" value="ENVIAR" name="submit1" id="submit" />
+            <button> enviar</button>
           </fieldset>
             
    </section>
 
-
-
-
-
-
-
-
-
-
-<style>
-
-section.border{
-  border:1px solid red;
-  width: 800px;
-  height:750px;
-  overflow:hidden;
-}
-  img{
-    width: 800px ;
-    text-align: center;
-  }
-</style>
 </body>
 </html>
 
