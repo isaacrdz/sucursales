@@ -11,7 +11,7 @@
           xfbml      : true,
           version    : 'v2.0'
         });
-FB.Canvas.setSize({ width: 820, height: 1200 });
+FB.Canvas.setSize();
       };
 
 
