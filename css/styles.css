@@ -9,6 +9,10 @@ overflow:hidden;
 }
 
 body
+{
+	overflow:hidden;
+
+}
 #form-box
 {
 	width: 800px;

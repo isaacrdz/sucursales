@@ -41,7 +41,7 @@
             <input placeholder="Telefono *" type="tel" name="tel" id="tel" required>
             </input>
             <br>
-            <br>
+            <br> <!-- 
             <label>Cómo se enteró de nosotros?</label> <br>
             <select name="como">
               <option value="Buscador">Google</option>
@@ -56,6 +56,7 @@
               <option value="Volante">Volante</option>
               <option value="Cliente">Cliente Anterior</option>
             </select> 
+             -->
             <br>           
             <label> Comentario: </label>
             <br />
