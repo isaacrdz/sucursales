@@ -10,9 +10,9 @@ font-family: verdana;
 {
 	width: 800px;
 	height: 750px ;
-	margin:.5em auto;
+	margin:.5em auto;	
+	background: #007DAB;
 	
-	background: #E9E9E9;
 
 }
 
@@ -21,7 +21,8 @@ font-family: verdana;
 	padding: 1em;
 	border:none;
 	width: 500px;
-	margin:  0 auto;
+	margin: 0 auto;
+	margin-bottom: 1em ;
 	box-sizing:border-box;
 	background: white;
 
@@ -35,6 +36,12 @@ font-family: verdana;
 	width:450px;
 
 
+}
+
+input.button
+{
+	background: #2D2D2D;
+	color: white;
 }
 
 h2

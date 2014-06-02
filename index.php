@@ -26,9 +26,9 @@
 <body>
 
 
-<section id="form-box">
-       <form action="emailx.php" method="post">
+<section id="form-box">  <br><br><br>
             <h2>Contactanos</h2>
+       <form action="emailx.php" method="post">
           <fieldset>
             
             <input placeholder="Nombre" type="text" name="nombre" id="nombre" title="Nombre" maxlength="60" autocomplete="off" required />
@@ -61,7 +61,7 @@
             <br />
             <textarea placeholder="Obligatorio" cols="28" rows="10" name="mensaje"></textarea>
             <br />
-            <input type="submit" value="ENVIAR" name="submit1" id="submit" />            
+            <input class="button" type="submit" value="ENVIAR" name="submit1" id="submit" />            
           </fieldset>
             
    </section>
