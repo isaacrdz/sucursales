@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+  <meta charset="UTF-8">
   <link rel="stylesheet" href="css/styles.css">
-	<title>Document</title>
- <script>
+  <title>Document</title>
+   <script>
       window.fbAsyncInit = function() {
         FB.init({
           appId      : '{694699497243451}',
@@ -64,9 +64,23 @@
             <br />
             <input class="button" type="submit" value="ENVIAR" name="submit1" id="submit" />            
           </fieldset>
+          
+
+
+
+<table>
+<tr>
+  <th><a href="http://www.gruporivero.com/web/category/marcas/cadillac/" target="_blank"><img src="img/cadillac-logo.png" alt=""></a></th>
+  <th><a href="http://www.gruporivero.com/web/category/marcas/buick/" target="_blank"><img src="img/buick-logo.png" alt=""></a></th>
+  <th><a href="http://www.gruporivero.com/web/category/marcas/chevrolet-nuevos/" target="_blank"><img src="img/chevrolet-logo.png" alt=""></a></th>
+  <th><a href="http://www.gruporivero.com/web/category/marcas/gmc/" target="_blank"><img src="img/gmc-logo.png" alt=""></a></th>
+</tr>
+
+</table>
 
 
 
 
-
-
+  
+</body>
+</html>

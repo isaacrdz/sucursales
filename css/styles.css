@@ -109,3 +109,23 @@ h2
 	text-shadow: 3px 3px 3px #000000;
 	
 }
+
+table,td,th
+{
+/*border:1px solid black;*/
+color: white;
+}
+table
+{
+width:80%;
+margin: 0 auto;
+}
+th
+{
+height:50px;
+}
+
+table tr th img
+{
+	width: 150px;
+}
