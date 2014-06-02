@@ -20,6 +20,7 @@
          js.src = "//connect.facebook.net/en_US/sdk.js";
          fjs.parentNode.insertBefore(js, fjs);
        }(document, 'script', 'facebook-jssdk'));
+       FB.Canvas.setSize({ width: 810, height: 1200 });  
     </script>
 
 </head>
