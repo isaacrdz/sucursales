@@ -26,7 +26,7 @@
 <body>
 
 
-<section id="form-box">  <br><br><br>
+<section id="form-box">  <br>
             <h2>Contactanos</h2>
        <form action="emailx.php" method="post">
           <fieldset>

@@ -9,10 +9,10 @@ font-family: verdana;
 #form-box
 {
 	width: 800px;
-	height: 750px ;
+	height: 760px ;
 	margin:.5em auto;	
 	background: #007DAB;
-	
+
 
 }
 
@@ -32,8 +32,10 @@ font-family: verdana;
 #form-box form fieldset input, select,textarea
 {
 	margin: 0.8em 0;
-	padding: 0.5em;
+	padding: 1em;
 	width:450px;
+	box-sizing:border-box;
+
 
 
 }
@@ -42,6 +44,9 @@ input.button
 {
 	background: #2D2D2D;
 	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
 }
 
 h2
