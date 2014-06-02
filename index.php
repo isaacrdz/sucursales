@@ -60,8 +60,7 @@
             <br />
             <textarea placeholder="Obligatorio" cols="28" rows="10" name="mensaje"></textarea>
             <br />
-            <input type="submit" value="ENVIAR" name="submit1" id="submit" />
-            <button> enviar</button>
+            <input type="submit" value="ENVIAR" name="submit1" id="submit" />            
           </fieldset>
             
    </section>
