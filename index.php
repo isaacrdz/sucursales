@@ -26,7 +26,7 @@
 <body>
 
 <section id="form-box">  
-<section class="header" ><figure> <a href="http://www.gruporivero.com"><img class="logo" src="img/logo.png" alt=""></a></figure> </section> <br>
+<section class="header" ><figure> <a href="http://www.gruporivero.com"><img class="logo" src="img/logo.png" alt=""></a></figure> </section> 
 
             <h2>solicita información</h2>
        <form action="emailx.php" method="post">
