@@ -5,7 +5,10 @@
 html
 {
 font-family: verdana;
+overflow:hidden;
 }
+
+body
 #form-box
 {
 	width: 800px;
