@@ -35,9 +35,8 @@
 .border{
   border:1px solid red;
   width: 800px;
-  height:900px;
+  height:750px;
   overflow:hidden;
-  box-sizing:border-box;
 }
   img{
     width: 800px ;
