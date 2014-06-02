@@ -12,6 +12,7 @@ font-family: verdana;
 	height: 900px ;
 	margin:.5em auto;	
 	background: #007DAB;
+	overflow:hidden;
 
 
 }
@@ -25,6 +26,7 @@ font-family: verdana;
 	margin-bottom: 1em ;
 	box-sizing:border-box;
 	background: white;
+	overflow:hidden;
 
 
 }
@@ -35,6 +37,7 @@ font-family: verdana;
 	padding: 1em;
 	width:450px;
 	box-sizing:border-box;
+	overflow:hidden;
 
 
 
