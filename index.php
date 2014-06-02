@@ -35,6 +35,7 @@
 .border{
   border:1px solid red;
   width: 800px;
+  height: 800px;
 }
   img{
     width: 800px ;
