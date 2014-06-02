@@ -13,15 +13,7 @@
         });
       };
 
-       function echoSize() {
-              document.getElementById('output').innerHTML = 
-                 "HTML Content Width: " + window.innerWidth + 
-                 " Height: " + window.innerHeight;
-              console.log(window.innerWidth + ' x ' + window.innerHeight);
-        }
 
-       echoSize();
-       window.onresize = echoSize;
 
       (function(d, s, id){
          var js, fjs = d.getElementsByTagName(s)[0];
@@ -30,6 +22,17 @@
          js.src = "//connect.facebook.net/en_US/sdk.js";
          fjs.parentNode.insertBefore(js, fjs);
        }(document, 'script', 'facebook-jssdk'));
+
+
+      function echoSize() {
+              document.getElementById('output').innerHTML = 
+                 "HTML Content Width: " + window.innerWidth + 
+                 " Height: " + window.innerHeight;
+              console.log(window.innerWidth + ' x ' + window.innerHeight);
+        }
+
+       echoSize();
+       window.onresize = echoSize;
 
     </script>
 
