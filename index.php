@@ -13,7 +13,7 @@
         });
       };
 
-
+FB.Canvas.setSize({ width: 820, height: 1200 });
 
       (function(d, s, id){
          var js, fjs = d.getElementsByTagName(s)[0];
@@ -24,15 +24,7 @@
        }(document, 'script', 'facebook-jssdk'));
 
 
-      function echoSize() {
-              document.getElementById('output').innerHTML = 
-                 "HTML Content Width: " + window.innerWidth + 
-                 " Height: " + window.innerHeight;
-              console.log(window.innerWidth + ' x ' + window.innerHeight);
-        }
 
-       echoSize();
-       window.onresize = echoSize;
 
     </script>
 
