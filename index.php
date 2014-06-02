@@ -41,8 +41,8 @@
             
             <input placeholder="Telefono *" type="tel" name="tel" id="tel" required>
             </input>
-            <br>
-            <br> <!-- 
+            
+            <!-- 
             <label>Cómo se enteró de nosotros?</label> <br>
             <select name="como">
               <option value="Buscador">Google</option>
@@ -59,9 +59,8 @@
             </select> 
              -->
             <br>           
-            <label> Comentario: </label>
-            <br />
-            <textarea placeholder="Obligatorio" cols="28" rows="10" name="mensaje"></textarea>
+                       <br />
+            <textarea placeholder="Comentario" cols="28" rows="10" name="mensaje"></textarea>
             <br />
             <input class="button" type="submit" value="ENVIAR" name="submit1" id="submit" />            
           </fieldset>

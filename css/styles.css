@@ -44,13 +44,26 @@ body
 	margin: 0.8em 0;
 	padding: 1em;
 	width:450px;
-	box-sizing:border-box;
-	
+	box-sizing:border-box;	
 	background: rgba(0, 0,0, 0.6);
 	border: none;
+	color: white;
+	font-family: verdana;
 
 
 
+}
+
+input::-webkit-input-placeholder {
+    color:    white;
+    
+    font-size: 16px;
+}
+
+textarea::-webkit-input-placeholder {
+    color:    white;
+    
+    font-size: 16px;
 }
 
 input.button
@@ -76,6 +89,8 @@ h2
 	/*background: #2D2D2D;*/
 	color: white;
 	/* background: rgba(0, 0,0, 0.6); */
+/*	text-shadow: 3px 3px 3px #000000;*/
+	
 
 
 }
@@ -85,10 +100,12 @@ h2
 	color:white;
 	/*border:1px solid white;*/
 	text-align: center;
-	padding: 2em 0;
+	padding: 2em 0 0 0;
 }
 
 .logo
 {
 	width: 450px;
+	text-shadow: 3px 3px 3px #000000;
+	
 }
