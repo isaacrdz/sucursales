@@ -38,7 +38,7 @@
   height:900px;
 }
   img{
-    width: 800px ;
+    width: 750px ;
     text-align: center;
   }
 </style>
