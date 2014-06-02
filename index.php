@@ -34,11 +34,11 @@
 
 .border{
   border:1px solid red;
-  width: 750px;
-  height:900px;
+  width: 800px;
+  height:760px;
 }
   img{
-    width: 750px ;
+    width: 800px ;
     text-align: center;
   }
 </style>
