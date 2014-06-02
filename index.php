@@ -13,9 +13,15 @@
         });
       };
 
-      // Hacemos resize del Canvas
-    FB.Canvas.setSize({ width: 760, height: 1200 });//medidas del iframe
-};
+       function echoSize() {
+              document.getElementById('output').innerHTML = 
+                 "HTML Content Width: " + window.innerWidth + 
+                 " Height: " + window.innerHeight;
+              console.log(window.innerWidth + ' x ' + window.innerHeight);
+        }
+
+       echoSize();
+       window.onresize = echoSize;
 
       (function(d, s, id){
          var js, fjs = d.getElementsByTagName(s)[0];
