@@ -1,0 +1,52 @@
+*{
+	padding:0;
+	margin: 0;
+}
+html
+{
+font-family: verdana;
+}
+#form-box
+{
+	width: 800px;
+	margin:.5em auto;
+	
+	background: #E9E9E9;
+
+}
+
+#form-box form fieldset
+{
+	padding: 1em;
+	border:none;
+	width: 500px;
+	margin:  0 auto;
+	box-sizing:border-box;
+	background: white;
+
+
+}
+
+#form-box form fieldset input, select,textarea
+{
+	margin: 0.8em 0;
+	padding: 0.5em;
+	width:450px;
+
+
+}
+
+h2
+{
+	padding: 1em;
+	border:none;
+	width: 500px;
+	margin:  0 auto;
+	box-sizing:border-box;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: verdana;
+	background: #2D2D2D;
+	color: white;
+
+}

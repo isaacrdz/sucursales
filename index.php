@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+  <link rel="stylesheet" href="css/styles.css">
 	<title>Document</title>
  <script>
       window.fbAsyncInit = function() {
@@ -27,21 +28,21 @@
 
 <section id="form-box">
        <form action="emailx.php" method="post">
+            <h2>Contactanos</h2>
           <fieldset>
-            <h2>¿Necesitas Información?</h2>
-            <label> Nombre: </label>
-            <input placeholder="Obligatorio" type="text" name="nombre" id="nombre" title="Nombre" maxlength="60" autocomplete="off" required />
+            
+            <input placeholder="Nombre" type="text" name="nombre" id="nombre" title="Nombre" maxlength="60" autocomplete="off" required />
             <br/>
-            <label>   Correo: </label>
-            <input type="email" name="email" id="email" title="correo" required  align="right">
+            
+            <input placeholder="Correo" type="email" name="email" id="email" title="correo" required  align="right">
             </input>
             <br />
-            <label> Teléfono*: </label>
-            <input placeholder="Obligatorio" value="Obligatorio" type="tel" name="tel" id="tel" required>
+            
+            <input placeholder="Telefono *" type="tel" name="tel" id="tel" required>
             </input>
             <br>
             <br>
-            <label>Cómo se enteró de nosotros?</label>
+            <label>Cómo se enteró de nosotros?</label> <br>
             <select name="como">
               <option value="Buscador">Google</option>
               <option value="Facebook">Facebook</option>
