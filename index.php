@@ -11,9 +11,9 @@
           xfbml      : true,
           version    : 'v2.0'
         });
+FB.Canvas.setSize({ width: 820, height: 1200 });
       };
 
-FB.Canvas.setSize({ width: 820, height: 1200 });
 
       (function(d, s, id){
          var js, fjs = d.getElementsByTagName(s)[0];
