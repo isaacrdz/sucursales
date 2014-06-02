@@ -36,6 +36,7 @@
   border:1px solid red;
   width: 800px;
   height:750px;
+  overflow:hidden;
 }
   img{
     width: 800px ;
