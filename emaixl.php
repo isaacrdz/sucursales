@@ -56,8 +56,8 @@ $cabecera="From: Maquinaria Rivero <gruporivero.com>";
 // enviamos el email 
 
 mail($mailx,$asunto,$cuerpo,$cabecera);
-echo '<script>alert("'.$mensajeenviado.'");</script>'; //
-echo '<script>location.href="'.$redireccion.'";</script>';  
+//echo '<script>alert("'.$mensajeenviado.'");</script>'; //
+//echo '<script>location.href="'.$redireccion.'";</script>';  
 
 
 ?>
