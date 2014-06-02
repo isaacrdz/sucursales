@@ -41,7 +41,7 @@
             </input>
             <br>
             <br>
-            <label>¿Cómo se enteró de nosotros?</label>
+            <label>Cómo se enteró de nosotros?</label>
             <select name="como">
               <option value="Buscador">Google</option>
               <option value="Facebook">Facebook</option>
