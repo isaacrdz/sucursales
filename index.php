@@ -88,14 +88,14 @@
 
 <style>
 
-.border{
+section.border{
   border:1px solid red;
   width: 800px;
   height:750px;
   overflow:hidden;
 }
   img{
-    width: 250px ;
+    width: 800px ;
     text-align: center;
   }
 </style>
