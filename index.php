@@ -37,6 +37,7 @@
   width: 800px;
   height:900px;
   overflow:hidden;
+  box-sizing:border-box;
 }
   img{
     width: 800px ;
