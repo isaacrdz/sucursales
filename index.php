@@ -25,9 +25,10 @@
 </head>
 <body>
 
+<section id="form-box">  
+<section class="header" ><figure> <a href="www.gruporivero.com"><img class="logo" src="img/logo.png" alt=""></a></figure> </section> <br>
 
-<section id="form-box">  <br>
-            <h2>Contactanos</h2>
+            <h2>solicita información</h2>
        <form action="emailx.php" method="post">
           <fieldset>
             
@@ -64,8 +65,9 @@
             <br />
             <input class="button" type="submit" value="ENVIAR" name="submit1" id="submit" />            
           </fieldset>
-            
-   </section>
-</body>
-</html>
+
+
+
+
+
 

@@ -18,8 +18,9 @@ body
 	width: 800px;
 	height: 900px ;
 	margin:.5em auto;	
-	background: #007DAB;
+	background: #081A2D;
 	overflow:hidden;
+	background: url(../img/bg1.jpg);
 
 
 }
@@ -32,7 +33,7 @@ body
 	margin: 0 auto;
 	margin-bottom: 1em ;
 	box-sizing:border-box;
-	background: white;
+	background: none;
 	overflow:hidden;
 
 
@@ -45,6 +46,8 @@ body
 	width:450px;
 	box-sizing:border-box;
 	overflow:hidden;
+	background: rgba(0, 0,0, 0.6);
+	border: none;
 
 
 
@@ -57,6 +60,7 @@ input.button
 	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
+	margin-top: 5em;
 }
 
 h2
@@ -69,7 +73,22 @@ h2
 	text-transform: uppercase;
 	text-align: center;
 	font-family: verdana;
-	background: #2D2D2D;
+	/*background: #2D2D2D;*/
 	color: white;
+	/* background: rgba(0, 0,0, 0.6); */
 
+
+}
+
+.header
+{
+	color:white;
+	/*border:1px solid white;*/
+	text-align: center;
+	padding: 2em 0;
+}
+
+.logo
+{
+	width: 450px;
 }
