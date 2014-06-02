@@ -54,8 +54,8 @@
               <option value="Radio">Radio</option>
               <option value="Volante">Volante</option>
               <option value="Cliente">Cliente Anterior</option>
-            </select>
-           
+            </select> 
+            <br>           
             <label> Comentario: </label>
             <br />
             <textarea placeholder="Obligatorio" cols="28" rows="10" name="mensaje"></textarea>
