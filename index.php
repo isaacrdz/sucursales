@@ -31,7 +31,7 @@ FB.Canvas.setSize({ width: 820, height: 1200 });
 </head>
 <body>
 <center>
-  <a href="http://www.gruporivero.com/web/contacto/mapas-de-ubicacion/">
+  <a href="http://www.gruporivero.com/web/contacto/mapas-de-ubicacion/" target="_blank">
     
     <img src="img/sucursales.jpg" alt="">
   </a>
