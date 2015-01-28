@@ -30,6 +30,10 @@ FB.Canvas.setSize({ width: 820, height: 900 });
 
 </head>
 <body>
+<center>
+<img src="img/sucursales.jpg" alt="">
+<center/>
+<!--  
 
 <section id="form-box">  
 <section class="header" ><figure> <a href="http://www.gruporivero.com" target="_blank"><img class="logo" src="img/logo.png" alt=""></a></figure> </section> 
@@ -48,7 +52,7 @@ FB.Canvas.setSize({ width: 820, height: 900 });
             <input placeholder="Telefono *" type="tel" name="tel" id="tel" required>
             </input>
             
-            <!-- 
+          
             <label>Cómo se enteró de nosotros?</label> <br>
             <select name="como">
               <option value="Buscador">Google</option>
@@ -63,7 +67,7 @@ FB.Canvas.setSize({ width: 820, height: 900 });
               <option value="Volante">Volante</option>
               <option value="Cliente">Cliente Anterior</option>
             </select> 
-             -->
+             
             <br>           
                        <br />
             <textarea placeholder="Comentario" cols="28" rows="10" name="mensaje"></textarea>
@@ -88,5 +92,6 @@ FB.Canvas.setSize({ width: 820, height: 900 });
 
 
   
+-->
 </body>
 </html>
